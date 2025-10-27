@@ -1,13 +1,13 @@
-This repo was moved to [Ciphercurve](https://ciphercurve.com) LLC [here](https://github.com/devnova/diseq)
+This repo was moved to [Ciphercurve](https://ciphercurve.com) LLC [here](https://github.com/devnova777/diseq)
 
 
 
 ![Diseq](https://github.com/devnova777/DISEQ/blob/master/resources/DISEQ/DISEQ1.jpg)
 
-The logos were created by [Imran Piash](https://www.fiverr.com). Rights have been granted to Jonas Pauli (the developer of this project).
+The logos were created by [Kashima Hideyuki](https://www.fiverr.com). Rights have been granted to Kashima Hideyuki (the developer of this project).
 
 # DISEQ Proof of Concept: Distributed Message Sequencing
-Diseq is a distributed sequencer built by [devnova](https://www.linkedin.com), a blockchain research engineer from Switzerland.
+Diseq is a distributed sequencer built by [devnova](https://www.linkedin.com), a blockchain research engineer from Japan.
 
 > [!NOTE]
 > Feel free to reach out and ask me any questions you may have regarding this project,
