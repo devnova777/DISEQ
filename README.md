@@ -1,13 +1,13 @@
-This repo was moved to [Ciphercurve](https://ciphercurve.com) LLC [here](https://github.com/ciphercurve/diseq)
+This repo was moved to [Ciphercurve](https://ciphercurve.com) LLC [here](https://github.com/devnova/diseq)
 
 
 
-![Diseq](https://github.com/jonas089/DISEQ/blob/master/resources/DISEQ/DISEQ1.jpg)
+![Diseq](https://github.com/devnova777/DISEQ/blob/master/resources/DISEQ/DISEQ1.jpg)
 
-The logos were created by [Imran Piash](https://www.fiverr.com/imranpiash?source=inbox). Rights have been granted to Jonas Pauli (the developer of this project).
+The logos were created by [Imran Piash](https://www.fiverr.com). Rights have been granted to Jonas Pauli (the developer of this project).
 
 # DISEQ Proof of Concept: Distributed Message Sequencing
-Diseq is a distributed sequencer built by [Jonas Pauli](https://www.linkedin.com/in/jonas-pauli/), a blockchain research engineer from Switzerland.
+Diseq is a distributed sequencer built by [devnova](https://www.linkedin.com), a blockchain research engineer from Switzerland.
 
 > [!NOTE]
 > Feel free to reach out and ask me any questions you may have regarding this project,
@@ -16,9 +16,9 @@ Diseq is a distributed sequencer built by [Jonas Pauli](https://www.linkedin.com
 
 Diseq acts as a distributed alternative to centralized (or decentralized) sequencing. Based on a novel zero knowledge consensus with deterministic validator selection, Diseq can operate with 51% percent of a fixed validator set being active and honest. Messages are added to a mempool and stored in the block once consensus has concluded and sufficiently many signatures from active nodes were collected. Nodes synchronize blocks to keep an immutable record of the message sequence.
 
-Read the full [Litepaper](https://github.com/jonas089/zk-vrf-consensus/tree/master/whitepaper).
+Read the full [Litepaper](https://github.com/devnova777/zk-vrf-consensus/tree/master/whitepaper).
 
-If you are an expert then consider also reading [some context about BFT](https://github.com/jonas089/zk-vrf-consensus/blob/master/whitepaper/byzantine-fault.md).
+If you are an expert then consider also reading [some context about BFT](https://github.com/devnova777/zk-vrf-consensus/blob/master/whitepaper/byzantine-fault.md).
 
 # Recommended: Run a local network of 4 Nodes with Docker
 I began taking this passion project quite seriously, so I added an SQLite DB to store Blocks and Messages.
@@ -54,9 +54,3 @@ to spawn 2 instances that synchronize blocks and commit to proposals / contribut
 ```
 
 To view a Block when running the example setup, request `127.0.0.1:8080/get/block/<id>`, or `127.0.0.1:8081/get/block/<id>`.
-
-# Merkle Proofs
-Whenever a Block is stored, all messages in that block are inserted into the custom [Merkle Patricia Trie](https://github.com/jonas089/jonas089-trie).
-For every individual message in the trie a merkle proof can be obtained. See an example for this [here](https://github.com/jonas089/distributed-sequencer/blob/master/tests/api.rs).
-
-©️ Ciphercurve GmbH, 2025
